@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33f5ef99-961d-48b0-8ddf-f1dcacaaa846" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../client/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/screens/HomeScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/screens/HomeScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/screens/NewTodo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/benchee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/benchee_json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/binpp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/circular_buffer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/connection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cowboy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cowboy_telemetry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/db_connection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/decimal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dialyxir.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto_psql_extras.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto_sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ex_doc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/excoveralls.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/floki.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/geo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gettext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hackney.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/html_entities.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/inch_ex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jason.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/kadabra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/myxql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_ecto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_html.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_live_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_live_reload.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_live_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_pubsub.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug_cowboy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug_crypto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/stream_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/telemetry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/telemetry_metrics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/telemetry_poller.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/websocket_client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/x509.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/todo_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/todo_server/store.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/todo_server/store/todo.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/todo_server_web/controllers/fallback_controller.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/todo_server_web/controllers/todo_controller.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/todo_server_web/views/changeset_view.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/todo_server_web/views/todo_view.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/todo_server/store_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/todo_server_web/controllers/todo_controller_test.exs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1myynoNt9rjQNVWLx7CVqJEyfUj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33f5ef99-961d-48b0-8ddf-f1dcacaaa846" name="Default Changelist" comment="" />
+      <created>1610480296754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610480296754</updated>
+      <workItem from="1610480299300" duration="4698000" />
+      <workItem from="1610550272853" duration="4976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
