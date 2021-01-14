@@ -2,10 +2,10 @@ use Mix.Config
 
 # Configure your database
 config :todo_server, TodoServer.Repo,
-  username: "root",
-  password: "",
-  database: "todo_server_dev",
-  hostname: "localhost",
+  username: "admin",
+  password: "awsadmin",
+  database: "todo-app-db",
+  hostname: "todo-app-db.cphfb2uhucyo.us-east-2.rds.amazonaws.com:3306",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
