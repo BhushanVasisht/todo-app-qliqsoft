@@ -132,6 +132,9 @@ class NewTodo extends Component {
                             </Form.Label>
                             <Col sm={10}>
                                 <Form.Control required value={this.state.date} onChange={this.updateForm}/>
+                                <Form.Text className="text-muted">
+                                    Please enter in YYYY-MM-DD format
+                                </Form.Text>
                             </Col>
                         </Form.Group>
 
