@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33f5ef99-961d-48b0-8ddf-f1dcacaaa846" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dev.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.exs" afterDir="false" />
-    </list>
+    <list default="true" id="33f5ef99-961d-48b0-8ddf-f1dcacaaa846" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +49,7 @@
       <workItem from="1610934322994" duration="28000" />
       <workItem from="1610934392849" duration="238000" />
       <workItem from="1611300760784" duration="194000" />
-      <workItem from="1611735219812" duration="1101000" />
+      <workItem from="1611735219812" duration="1439000" />
     </task>
     <servers />
   </component>

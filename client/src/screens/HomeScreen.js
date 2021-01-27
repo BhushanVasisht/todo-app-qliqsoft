@@ -3,6 +3,7 @@ import {Redirect} from "react-router-dom";
 import axios from 'axios';
 import {Button, Container, Table} from "react-bootstrap";
 import './HomeScreen.css';
+import endpoints from '../endpoints.js';
 
 class HomeScreen extends Component {
     state = {
@@ -21,15 +22,15 @@ class HomeScreen extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3000/api/v1/todo_events').then(r => this.setState({events : r.data.data})).catch(e => this.setState({events : []}))
+        axios.get(endpoints.backend + '/api/v1/todo_events').then(r => this.setState({events : r.data.data})).catch(e => this.setState({events : []}))
     }
 
     delRow = async (e) => {
         await axios({
             method: 'post',
-            url: 'http://localhost:3000/api/v1/todo_events/delete/',
+            url: endpoints.backend + '/api/v1/todo_events/delete/',
             data: {id: e.target.value}
-            }).then(r => axios.get('http://localhost:3000/api/v1/todo_events').then(r => this.setState({events : r.data.data})).catch(e => this.setState({events : []})))
+            }).then(r => axios.get(endpoints.backend + '/api/v1/todo_events').then(r => this.setState({events : r.data.data})).catch(e => this.setState({events : []})))
     }
 
     updateRow = (e) => {
