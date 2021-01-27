@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import {Form, Row, Col, Button} from "react-bootstrap";
 import {Redirect} from "react-router-dom";
+import endpoints from '../endpoints.js';
 
 class NewTodo extends Component {
     state = {
@@ -29,7 +30,7 @@ class NewTodo extends Component {
         {
             await axios({
                 method : 'get',
-                url : 'http://localhost:3000/api/v1/todo_events/' + this.state.id
+                url : endpoints.backend + 'api/v1/todo_events/' + this.state.id
             }).then(async r => {
                 let data = r.data.data
                 this.setState({title:data.title, data:data.event_data, date:data.event_date, status:data.event_status})
@@ -62,7 +63,7 @@ class NewTodo extends Component {
             //new event
             await axios({
                 method: 'post',
-                url: 'http://localhost:3000/api/v1/todo_events/',
+                url: endpoints.backend + '/api/v1/todo_events/',
                 data: {
                     "todo" : {
                         "title" : this.state.title,
@@ -78,7 +79,7 @@ class NewTodo extends Component {
             //old event
             await axios({
                 method: 'post',
-                url: 'http://localhost:3000/api/v1/todo_events/update',
+                url: endpoints.backend + '/api/v1/todo_events/update',
                 data: {
                     "id" : this.state.id,
                     "todo" : {
