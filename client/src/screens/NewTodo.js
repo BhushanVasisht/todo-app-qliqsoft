@@ -30,7 +30,7 @@ class NewTodo extends Component {
         {
             await axios({
                 method : 'get',
-                url : endpoints.backend + 'api/v1/todo_events/' + this.state.id
+                url : endpoints.backend + '/api/v1/todo_events/' + this.state.id
             }).then(async r => {
                 let data = r.data.data
                 this.setState({title:data.title, data:data.event_data, date:data.event_date, status:data.event_status})
