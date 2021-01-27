@@ -5,10 +5,14 @@ config :todo_server, TodoServer.Repo,
   username: "admin",
   password: "awsrdstest",
   database: "todo-app-dev",
-  hostname: "todo-db-dev.cphfb2uhucyo.us-east-2.rds.amazonaws.com",
+  hostname: "todo-app-dev.cphfb2uhucyo.us-east-2.rds.amazonaws.com",
   port: 3306,
   show_sensitive_data_on_connection_error: true,
-  pool_size: 10
+  pool_size: 10,
+  ssl: true,
+  ssl_opts: [
+    versions: [:"tlsv1.2"]
+  ]
 
 # For development, we disable any cache and enable
 # debugging and code reloading.

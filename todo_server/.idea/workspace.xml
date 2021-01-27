@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f5ef99-961d-48b0-8ddf-f1dcacaaa846" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dev.exs" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.exs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="todo_server/invalid/Elixir" />
+    </ignored-facets>
   </component>
   <component name="ProjectId" id="1myynoNt9rjQNVWLx7CVqJEyfUj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -43,6 +52,10 @@
       <workItem from="1610480299300" duration="4698000" />
       <workItem from="1610550272853" duration="10061000" />
       <workItem from="1610647271927" duration="1467000" />
+      <workItem from="1610934322994" duration="28000" />
+      <workItem from="1610934392849" duration="238000" />
+      <workItem from="1611300760784" duration="194000" />
+      <workItem from="1611735219812" duration="1101000" />
     </task>
     <servers />
   </component>
