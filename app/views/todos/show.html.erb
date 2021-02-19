@@ -1,0 +1,31 @@
+<div class="card" style="width: 50rem;">
+
+  <div class="card-header">
+    <h3>Todo Event</h3>
+  </div>
+
+  <div class="card-body">
+    <p class="card-title">
+      <strong>Title:</strong>
+      <%= @todo.title %>
+    </p>
+
+    <p class="card-text">
+      <strong>Event:</strong>
+      <%= @todo.event %>
+    </p>
+
+    <p>
+      <strong>Date:</strong>
+      <%= @todo.date %>
+    </p>
+
+    <p>
+      <strong>Status:</strong>
+      <%= @todo.status %>
+    </p>
+
+    <%= link_to 'Edit', edit_todo_path(@todo), class: "btn btn-secondary" %>
+    <%= link_to 'Back', todos_path, class: "btn btn-dark" %>
+  </div>
+</div>

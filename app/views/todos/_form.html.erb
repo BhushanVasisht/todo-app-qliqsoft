@@ -1,0 +1,40 @@
+<%= form_with(model: todo) do |form| %>
+  <% if todo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(todo.errors.count, "error") %> prohibited this todo from being saved:</h2>
+
+      <ul>
+        <% todo.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div style="width: 50rem;">
+    <div class="field  form-group">
+      <%= form.label :title, class: "col-sm-2 col-form-label" %>
+      <%= form.text_field :title, class: "form-control" %>
+    </div>
+
+    <div class="field form-group">
+      <%= form.label :event, class: "col-sm-2 col-form-label" %>
+      <%= form.text_area :event, class: "form-control" %>
+    </div>
+
+    <div class="field form-group">
+      <%= form.label :date, class: "col-form-label" %>
+      <%= form.date_select :date, class: "form-control" %>
+    </div>
+
+    <div class="field form-group">
+      <%= form.label :status, class: "col-form-label" %>
+      <%= form.check_box :status %>
+    </div>
+
+    <div class="actions col-form-label">
+      <%= form.submit class: "btn btn-secondary" %>
+    </div>
+  </div>
+
+<% end %>
